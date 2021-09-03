@@ -1,0 +1,11 @@
+Note :
+Link langsung pada tujuan aplikasi
+
+example :
+
+APP STORE : game POU
+=> https://apps.apple.com/us/app/pou/id575154654
+
+
+PLAY STORE : Talking Tom Hero Dash - Run Game
+=> https://play.google.com/store/apps/details?id=com.outfit7.herodash 
