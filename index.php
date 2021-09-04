@@ -1,7 +1,6 @@
 <?php
 
 
-include('./simple_html_dom.php');
 
 echo "<h1>Data from PLAY STORE</h1>";
 // PLAY STORE
