@@ -6,8 +6,7 @@ echo "<h1>Data from PLAY STORE</h1>";
 // PLAY STORE
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL,"http://localhost:5000/play-store");
-// curl_setopt($ch, CURLOPT_URL,"https://sheltered-shore-95555.herokuapp.com/play-store");
+curl_setopt($ch, CURLOPT_URL,"https://sheltered-shore-95555.herokuapp.com/play-store");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS,
             "url=https://play.google.com/store/apps/details?id=com.outfit7.herodash");
@@ -41,11 +40,10 @@ echo "<h1>Data from APP STORE</h1>";
 // APP STORE
 $ch1 = curl_init();
 
-curl_setopt($ch1, CURLOPT_URL,"http://localhost:5000/app-store");
-// curl_setopt($ch1, CURLOPT_URL,"https://sheltered-shore-95555.herokuapp.com/app-store");
+curl_setopt($ch1, CURLOPT_URL,"https://sheltered-shore-95555.herokuapp.com/app-store");
 curl_setopt($ch1, CURLOPT_POST, 1);
 curl_setopt($ch1, CURLOPT_POSTFIELDS,
-            "url=https://apps.apple.com/us/app/pou/id575154654");
+            "url=https://apps.apple.com/us/app/minecraft/id479516143");
 
 // In real life you should use something like:
 // curl_setopt($ch, CURLOPT_POSTFIELDS, 
@@ -69,13 +67,7 @@ curl_close ($ch1);
 
 
 
-// $html=file_get_html("https://play.google.com/store/apps/details?id=com.outfit7.herodash");
-// // $e =$htmls->find('p');
-// $links = array();
-// foreach($html->find('a') as $a) {
-//  $links[] = $a->href;
-// }
-// print_r($links);
+
 
 
 ?>
